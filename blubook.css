@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /*** Custom fonts ***/
-@import url('./blubook/fonts.css');
+@import url('https://cdn.jsdelivr.net/gh/FishionYu/typora-blubook-theme/blubook/fonts.css');
 
 /*** Color setting ***/
 :root {
@@ -29,14 +29,11 @@ body {
   -webkit-text-size-adjust: 100%
 }
 
-html {
-  font-size: 16px;
-}
-
 html,
 body {
   color: #242A31;
   /* width: 100%; */
+  font-size: 16px;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -266,16 +263,7 @@ pre.CodeMirror-line {
 
 /****** Code style ******/
 code {
-  padding: .2rem .2rem;
   border-radius: 3px;
-  display: inline;
-  vertical-align: bottom;
-  line-height: 1.8;
-}
-
-/******Code background******/
-code:not(.md-search-expand) {
-  background: #ecf1f5 !important;
 }
 
 /******Color when select to search******/
@@ -313,9 +301,9 @@ body h1,
 }
 
 .starred-pages a {
-  display: block;
+  display: block !important;
 }
 
 input.bp3-input {
-  font-weight: bold;
+  font-weight: normal;
 }
