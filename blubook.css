@@ -277,9 +277,9 @@ body, html, a, div, textarea {
 
 body h1,
 .rm-page__title,
-.rm-heading-level-1 > .rm-block__self .roam-block,
-.rm-heading-level-2 > .rm-block__self .roam-block,
-.rm-heading-level-3 > .rm-block__self .roam-block {
+.rm-heading-level-1 > .rm-block__self .roam-block *,
+.rm-heading-level-2 > .rm-block__self .roam-block *,
+.rm-heading-level-3 > .rm-block__self .roam-block * {
   font-family: 'Glow Sans SC', -apple-system, sans-serif !important;
   font-weight: 800 !important;
 }
