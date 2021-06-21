@@ -237,18 +237,7 @@ blockquote {
   color: #827676;
   background-color: #f5f7f9;
   border-radius: 6px;
-}
-
-blockquote::before {
-  content: '';
-  position: absolute;
-  top: 0rem;
-  left: 0rem;
-  height: 100%;
-  width: .30rem;
-  background: #3884ff;
-  border-top-left-radius: 6px;
-  border-bottom-left-radius: 6px;
+  border-left: 5px solid #3884ff !important;
 }
 
 pre.CodeMirror-line {
@@ -288,9 +277,9 @@ body, html, a, div, textarea {
 
 body h1,
 .rm-page__title,
-.rm-heading-level-1 > .rm-block__self *,
-.rm-heading-level-2 > .rm-block__self *,
-.rm-heading-level-3 > .rm-block__self * {
+.rm-heading-level-1 > .rm-block__self .roam-block,
+.rm-heading-level-2 > .rm-block__self .roam-block,
+.rm-heading-level-3 > .rm-block__self .roam-block {
   font-family: 'Glow Sans SC', -apple-system, sans-serif !important;
   font-weight: 800 !important;
 }
