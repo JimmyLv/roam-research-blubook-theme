@@ -66,12 +66,6 @@ ul > li > ul > li > ul > li {
   list-style-type: square;
 }
 
-ol,
-ul:not(#sidebar-files-menu,#context-menu) {
-  padding-left: 2rem;
-  line-height: 1;
-}
-
 ol > li {
   list-style-type: decimal
 }
@@ -302,8 +296,9 @@ body h1,
 
 .starred-pages a {
   display: block !important;
+  margin-bottom: 6px;
 }
 
 input.bp3-input {
-  font-weight: normal;
+  font-weight: 600;
 }
